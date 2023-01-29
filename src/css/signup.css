@@ -1,0 +1,14 @@
+.img_container {
+ /* position: relative; */
+}
+
+.add_picture_icon {
+/* position: absolute; 
+ top: 270px;
+ margin-left: -20px; */
+
+
+ transform: translateY(40px);
+ margin-left: -17px;
+  
+}
