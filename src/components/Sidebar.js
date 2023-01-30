@@ -57,7 +57,7 @@ function Sidebar() {
   }
 
   function getRooms(){
-    fetch('http://localhost:5001/rooms')
+    fetch('https://backend-chat-app-self.vercel.app/rooms')
     .then((res) => res.json())
     .then((data) => setRooms(data));
   }
